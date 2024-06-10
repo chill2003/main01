@@ -1,18 +1,13 @@
 import numpy as np
 import pandas as pd
-import yfinance as yf
-from keras.models import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 import matplotlib
-matplotlib.rcParams['font.sans-serif'] = ['SimHei'] 
 import twstock
 import random
-from PIL import Image
-from datetime import datetime
 import plost
 import mplfinance as mpf
-from sklearn.preprocessing import MinMaxScaler
+
 
 
 model = load_model('C:/Users/User/OneDrive/桌面/Stock Predictions Model.keras')
