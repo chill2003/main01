@@ -1,0 +1,10 @@
+numpy
+pandas
+yfinance
+streamlit
+matplotlib.pyplot
+matplotlib
+twstock
+random
+plost
+mplfinance as mpf
